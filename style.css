@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+:root{
+    color: #74c7fb;
+}
+
+header{
+    width: 100%;
+
+    .diplomacy-cover{
+       display: flex;
+       justify-content: space-evenly;
+       gap: 140px;
+       padding: 10px;
+       align-items: center;
+        
+
+    .diplomacy{
+        text-align: center;
+
+    .diplomacy-logo{
+        height: 100px;
+        width: 200px;
+    }
+
+     p{
+        color: #8c8c8c;
+        font-weight: 100;
+        font-size: 10px;
+    }
+}
+.socials{
+    display: flex;
+    font-size: 10px;
+    gap: 10px;
+
+    .fa-facebook{
+        color: #1877F2;
+    }
+    .fa-instagram{
+        color: #E4405F;
+    }
+    .fa-twitter{
+        color: #1DA1F2;
+    }
+    .fa-youtube{
+        color:  #CD201F;
+    }
+}
+}
+hr{
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+}
+nav{
+    height: 50px;
+    background-color: #74c7fb;
+    width: 100%;
+    
+    .bar{
+        padding: 5px;
+        display: flex;
+        justify-content: start;
+        gap: 10px;
+        padding-left: 10px;
+
+        a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        a:hover{
+            color: rgb(189, 131, 22);
+            transition: 3s all ease-in-out;
+            text-decoration: underline;
+        }
+        
+    }
+}
+}
+section{
+    margin-top: 40px;
+
+    .first-major{
+
+        .opportunity{
+            background-color: black;
+            width: 250px;
+            font-size: 16px;
+        
+    }
+    .first-section{
+
+        .expanded-bit{
+            height: 300px;
+            width: 300px;
+            background-color: #CD201F;
+
+            .media{
+                height: 150px;
+                width: 100%;
+
+            }
+            .text-bit{
+
+            }
+        }
+    }
+
+    .second-section{
+
+    }
+
+    }
+
+   .second-major-ads-area{
+
+   }
+}
+
+
+@media only screen and (max-width: 600px) {
+    header{
+        width: 100%;
+
+        .diplomacy-cover{
+           display: flex;
+           justify-content: space-around;
+           gap: 10px;
+           padding: 6px;
+           align-items: center;
+            
+    
+        .diplomacy{
+            text-align: center;
+            width: auto;
+            
+    
+            p{
+                font-size: 6px;
+            }
+    
+    .diplomacy-logo{
+        height: 120px;
+        width: 180px;
+    }
+}
+.socials{
+    margin-top: 40px;
+    gap: 16px;
+    font-size: 19px;
+}
+
+}
+nav{
+    height: 84px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    .bar{
+        padding: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        gap: 25px;
+        line-height: 2px;
+        padding-left: 10px;
+
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+            font-weight: 600;
+        }
+        
+    }
+}
+
+}
+}
+@media only screen and (min-width: 620px) and (max-width: 1100px)  {
+    header{
+
+        .diplomacy-cover{
+           display: flex;
+           justify-content: space-around;
+           gap: 40px;
+           padding: 10px;
+           align-items: center;
+            
+    
+        .diplomacy{
+            text-align: center;
+            width: auto;
+            
+    
+            p{
+                color: #8c8c8c;
+                font-weight: 300;
+                width: auto;
+                font-size: 11px;
+            }
+    
+    .diplomacy-logo{
+        height: auto;
+    }
+}
+.socials{
+    gap: 30px;
+    font-size: 38px;
+}
+
+}
+nav{
+    height: 50px;
+    
+
+    .bar{
+        padding: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        gap: 36px;
+        padding-left: 20px;
+    
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            font-weight: 670;
+        }
+    }
+}
+}}
+
+@media only screen and (min-width: 1100px) and (max-width: 1420px)  {
+    header{
+
+        .diplomacy-cover{
+           display: flex;
+           justify-content: space-around;
+           gap: 40px;
+           padding: 10px;
+           align-items: center;
+            
+    
+        .diplomacy{
+            text-align: center;
+            width: auto;
+            
+    
+            p{
+                color: #8c8c8c;
+                font-weight: 300;
+                width: auto;
+                font-size: 11px;
+            }
+    
+    .diplomacy-logo{
+        height: auto;
+    }
+}
+.socials{
+    gap: 30px;
+    font-size: 30px;
+}
+
+}
+nav{
+    height: 50px;
+    
+
+    .bar{
+        padding: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        gap: 56px;
+        padding-left: 28px;
+    
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+            font-weight: 670;
+        }
+    }
+}
+}
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 2000px)  {
+    header{
+
+        .diplomacy-cover{
+           display: flex;
+           justify-content: space-around;
+           gap: 40px;
+           padding: 10px;
+           align-items: center;
+            
+    
+        .diplomacy{
+            text-align: center;
+            width: auto;
+           
+            
+    
+            p{
+                color: #8c8c8c;
+                font-weight: 300;
+                width: auto;
+                font-size: 18px;
+            }
+    
+    .diplomacy-logo{
+        height: 215px;
+        width: 320px;
+    }
+}
+.socials{
+    gap: 50px;
+    font-size: 60px;
+}
+}
+nav{
+    height: 90px;
+    
+
+    .bar{
+        padding: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        gap: 56px;
+        padding-left: 28px;
+    
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 33px;
+            font-weight: 670;
+        }
+    }
+}
+}
+}
+
+@media only screen and (min-width: 2000px) and (max-width: 2600px)  {
+    header{
+
+        .diplomacy-cover{
+           display: flex;
+           justify-content: space-around;
+           gap: 40px;
+           padding: 10px;
+           align-items: center;
+            
+    
+        .diplomacy{
+            text-align: center;
+            width: auto;
+           
+            
+    
+            p{
+                color: #8c8c8c;
+                font-weight: 300;
+                width: auto;
+                font-size: 18px;
+            }
+    
+    .diplomacy-logo{
+        height: 245px;
+        width: 390px;
+    }
+}
+.socials{
+    gap: 50px;
+    font-size: 60px;
+}
+}
+nav{
+    height: 150px;
+    
+
+    .bar{
+        padding: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: center;
+        gap: 86px;
+        padding-left: 32px;
+    
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 43px;
+            font-weight: 670;
+        }
+    }
+}
+}
+}
